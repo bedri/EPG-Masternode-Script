@@ -13,9 +13,9 @@ elif [[ $(lsb_release -d) == *18.04* ]]; then
 	COIN_TGZP='http://116.203.194.87:7070/epgc_ubuntu_18.04_binaries.tar.bz2'
 fi
 COIN_TGZ=$(echo $COIN_TGZP | awk -F'/' '{print $NF}')
-COIN_NAME='encocoinplus'
+COIN_NAME='epgc'
 PROJECT_NAME='Encocoinplus EPG - Encocoin Payment Guarantee'
-COIN_EXPLORER='http://explorer.encocoin.net'
+COIN_EXPLORER='https://epgexplorer.encocoin.net'
 COIN_PORT=29442
 RPC_PORT=29443
 
